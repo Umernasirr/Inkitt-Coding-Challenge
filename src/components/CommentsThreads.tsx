@@ -15,7 +15,7 @@ import Comment from "./Comment";
 
 import { IComment } from "../models/Comment";
 
-const CommentsThreads = () => {
+const CommentsThreads: React.FC = () => {
     const [comments, setComments] = useState<IComment[] | []>([]);
     const [commentTxt, setCommentTxt] = useState("");
     const [userName, setUserName] = useState("");

@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box, Text } from "@chakra-ui/react";
 import CommentsThreads from "../components/CommentsThreads";
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Flex w="full" h="100%" bg="facebook.200">
       <Flex w="full" p={10} justify="center" direction="column">

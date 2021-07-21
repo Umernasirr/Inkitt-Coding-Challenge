@@ -188,7 +188,7 @@ const Comment: React.FC<ICommentProps> = ({
             )}
 
             {replies &&
-                replies.map((reply) => (
+                replies.map((reply: IComment) => (
                     <Fade key={reply._id}
                     >
                         <Comment
